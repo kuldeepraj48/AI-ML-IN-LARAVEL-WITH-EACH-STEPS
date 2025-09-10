@@ -1,0 +1,22 @@
+stages:
+  - test
+  - deploy
+
+before_script:
+  - apt-get update -qq
+  - apt-get install -y python3 python3-pip
+  - composer install
+  - cp .env.example .env
+  - php artisan key:generate
+  - pip3 install transformers torch --quiet
+
+test:
+  stage: test
+  script:
+    - php artisan test
+    - python3 ml/sentiment.py "This is awesome!"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "🚀 Deploy your Laravel + AI/ML app here"
