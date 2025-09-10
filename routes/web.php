@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::get('/analyze', [AIController::class, 'showForm']);
 Route::post('/analyze', [AIController::class, 'handleForm']);
+Route::post('/ai-process', [AIController::class, 'apiProcess']);

@@ -20,6 +20,9 @@
             <select name="mode" id="mode" class="form-select">
                 <option value="local" {{ (isset($mode) && $mode == 'local') ? 'selected' : '' }}>Local Sentiment (Python)</option>
                 <option value="chatgpt" {{ (isset($mode) && $mode == 'chatgpt') ? 'selected' : '' }}>ChatGPT API</option>
+                <option value="summary" {{ (isset($mode) && $mode == 'summary') ? 'selected' : '' }}>
+                    ChatGPT Summarizer
+                </option>
             </select>
         </div>
 
@@ -35,10 +38,19 @@
                 @else
                     <pre>{{ print_r($result, true) }}</pre>
                 @endif
+
             @elseif($mode == 'chatgpt')
                 @if(isset($result['response']))
                     <strong>ChatGPT Response:</strong>
                     <p>{{ $result['response'] }}</p>
+                @else
+                    <pre>{{ print_r($result, true) }}</pre>
+                @endif
+
+            @elseif($mode == 'summary')
+                @if(isset($result['summary']))
+                    <strong>ChatGPT Summary:</strong>
+                    <p>{{ $result['summary'] }}</p>
                 @else
                     <pre>{{ print_r($result, true) }}</pre>
                 @endif
