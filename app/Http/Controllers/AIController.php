@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use OpenAI\Laravel\Facades\OpenAI;
 use App\Models\AiLog;
+use Illuminate\Support\Facades\Http;
 
 class AIController extends Controller
 {
@@ -197,11 +198,20 @@ class AIController extends Controller
         } elseif ($mode === 'chatgpt') {
             // ChatGPT general response
             try {
+                //old backup with dynamic values
+                // $chat = OpenAI::chat()->create([
+                //     'model' => 'gpt-3.5-turbo',
+                //     'messages' => [
+                //         ['role' => 'system', 'content' => 'You are a helpful assistant.'],
+                //         ['role' => 'user', 'content' => $text],
+                //     ],
+                // ]);
+                //New code as per response
                 $chat = OpenAI::chat()->create([
-                    'model' => 'gpt-3.5-turbo',
+                    'model' => 'gpt-4o-mini', // free tier model (if quota available)
                     'messages' => [
                         ['role' => 'system', 'content' => 'You are a helpful assistant.'],
-                        ['role' => 'user', 'content' => $text],
+                        ['role' => 'user', 'content' => 'Hello OpenAI, can you reply?'],
                     ],
                 ]);
                 $result = ['response' => $chat->choices[0]->message->content];
