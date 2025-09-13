@@ -17,7 +17,7 @@ It supports:
 - Laravel `>=10`
 - Node.js & NPM (for frontend assets)
 - Python `>=3.8` with `pip`
-- 
+
 <img width="1920" height="942" alt="image" src="https://github.com/user-attachments/assets/5d2de715-49fa-4744-83b2-9b66b5273df4" />
 
 ### Python Dependencies
@@ -144,6 +144,7 @@ Do you want me to also remove this line:
 (since that looks more like a note from me than part of your README)?
 
 
+### Link
 
 📌 Notes Last
 
