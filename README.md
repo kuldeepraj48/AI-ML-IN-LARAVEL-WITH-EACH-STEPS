@@ -17,6 +17,8 @@ It supports:
 - Laravel `>=10`
 - Node.js & NPM (for frontend assets)
 - Python `>=3.8` with `pip`
+- 
+<img width="1920" height="942" alt="image" src="https://github.com/user-attachments/assets/5d2de715-49fa-4744-83b2-9b66b5273df4" />
 
 ### Python Dependencies
 Install in your Python environment:
@@ -44,9 +46,6 @@ Add your API key in .env:
 
 OPENAI_API_KEY=your_api_key_here
 OPENAI_ORGANIZATION=null
-
-![Alt text]([https://github.com/user-attachments/assets/7690f7be-8de2-4129-b18c-da90c40f79e6](https://github.com/user-attachments/assets/5d2de715-49fa-4744-83b2-9b66b5273df4))
-
 
 📂 Project Structure
 AI-ML-IN-LARAVEL-WITH-EACH-STEPS/
