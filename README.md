@@ -23,7 +23,7 @@ It supports:
 ### Python Dependencies
 Install in your Python environment:
 
-```bash
+
 pip install textblob
 pip install transformers torch
 
