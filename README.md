@@ -134,9 +134,11 @@ Extend ml/sentiment.py with Hugging Face models for summarization, classificatio
 Logs of AI input/output are stored in DB (ai_logs table).
 
 
----
 
-👉 Do you also want me to add a **ready-to-use example for `ml/sentiment.py`** inside this 
+👉 Always ensure every code block has **both opening and closing fences**.  
+
+Do you want me to go through your README and **fix all code fences properly** (so no text accidentally gets stuck inside)?
+
 
 ### 📌 Notes Last
 
