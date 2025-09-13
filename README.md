@@ -45,6 +45,8 @@ Add your API key in .env:
 OPENAI_API_KEY=your_api_key_here
 OPENAI_ORGANIZATION=null
 
+<img width="1920" height="942" alt="image" src="https://github.com/user-attachments/assets/5d2de715-49fa-4744-83b2-9b66b5273df4" />
+
 📂 Project Structure
 AI-ML-IN-LARAVEL-WITH-EACH-STEPS/
 │
@@ -149,5 +151,18 @@ These both are working fine as per:
 
 http://127.0.0.1:8000/analyze
 http://127.0.0.1:8000/api/analyze
+
+📌 Web Url
+
+<img width="1827" height="708" alt="image" src="https://github.com/user-attachments/assets/7690f7be-8de2-4129-b18c-da90c40f79e6" />
+
+📌 API Communicate wth  openai and chatgpt
+
+<img width="1762" height="633" alt="image" src="https://github.com/user-attachments/assets/96733dee-40ad-4cfb-90ef-e0c8a6d92d5a" />
+
+📌 Records are coming in our database. 
+
+<img width="1323" height="86" alt="image" src="https://github.com/user-attachments/assets/be5ef35a-0796-4930-87be-0c7fe68c5fe6" />
+
 
 
