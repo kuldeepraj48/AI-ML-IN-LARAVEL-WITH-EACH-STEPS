@@ -138,7 +138,7 @@ Logs of AI input/output are stored in DB (ai_logs table).
 
 👉 Do you also want me to add a **ready-to-use example for `ml/sentiment.py`** inside this 
 
-⚠️ Notes Last
+### Notes Last
 
 These both are working fine as per 
 
