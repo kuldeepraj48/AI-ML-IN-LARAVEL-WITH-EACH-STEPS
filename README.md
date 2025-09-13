@@ -152,7 +152,7 @@ Do you want me to also remove this line:
 
 These both are working fine as per:
 
-http://127.0.0.1:8000/analyze
+http://127.0.0.1:8000/analyze<br>
 http://127.0.0.1:8000/api/analyze
 
 📌 Web Url
