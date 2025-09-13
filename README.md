@@ -144,8 +144,6 @@ Do you want me to also remove this line:
 (since that looks more like a note from me than part of your README)?
 
 
-### Link
-
 📌 Notes Last
 
 These both are working fine as per:
