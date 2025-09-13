@@ -136,15 +136,6 @@ Extend ml/sentiment.py with Hugging Face models for summarization, classificatio
 Logs of AI input/output are stored in DB (ai_logs table).
 
 
-
-✅ Now all `bash`, `json`, and code fences are properly closed.  
-
-Do you want me to also remove this line:  
-👉 Do you also want me to add a ready-to-use example for `ml/sentiment.py` inside this?  
-(since that looks more like a note from me than part of your README)?
-
-
-
 📌 Notes Last
 
 These both are working fine as per:
