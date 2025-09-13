@@ -18,6 +18,8 @@ It supports:
 - Node.js & NPM (for frontend assets)
 - Python `>=3.8` with `pip`
 
+## 📌 LARAVEL PROJECT DETAILS WITH PY AND UI 
+
 <img width="1920" height="942" alt="image" src="https://github.com/user-attachments/assets/5d2de715-49fa-4744-83b2-9b66b5273df4" />
 
 ### Python Dependencies
