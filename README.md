@@ -23,7 +23,7 @@ It supports:
 ### Python Dependencies
 Install in your Python environment:
 
-
+```bash
 pip install textblob
 pip install transformers torch
 
@@ -142,6 +142,8 @@ Logs of AI input/output are stored in DB (ai_logs table).
 Do you want me to also remove this line:  
 👉 Do you also want me to add a ready-to-use example for `ml/sentiment.py` inside this?  
 (since that looks more like a note from me than part of your README)?
+
+```
 
 
 📌 Notes Last
