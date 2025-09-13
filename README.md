@@ -138,4 +138,11 @@ Logs of AI input/output are stored in DB (ai_logs table).
 
 👉 Do you also want me to add a **ready-to-use example for `ml/sentiment.py`** inside this 
 
+⚠️ Notes Last
+
+These both are working fine as per 
+
+http://127.0.0.1:8000/analyze
+http://127.0.0.1:8000/api/analyze
+
 
