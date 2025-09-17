@@ -167,5 +167,19 @@ http://127.0.0.1:8000/api/analyze
 
 <img width="1323" height="86" alt="image" src="https://github.com/user-attachments/assets/be5ef35a-0796-4930-87be-0c7fe68c5fe6" />
 
+📌 Working these screen as per changes.
+
+<img width="1870" height="677" alt="new" src="https://github.com/user-attachments/assets/ce7571ab-220d-4a0c-8c6e-6d9fc8ffbc1f" />
+
+📌 Working these curl.
+
+curl -X POST http://127.0.0.1:8000/api/ai/summarize -H "Content-Type: application/json" -d "{"text":"Laravel is a PHP framework that makes web development easier by providing built-in tools for routing, authentication, and database management."}"
+
+curl -X POST http://127.0.0.1:8000/api/ai/tasks -H "Content-Type: application/json" -d "{"title":"Buy milk","description":"2 liters"}"
+
+curl -X POST "http://127.0.0.1:8000/api/ai/chat" -H "Content-Type: application/json" -d "{"message":"Kuldeep Explain the Observer pattern in simple terms."}"
+
+
+All Details and Steps
 
 
