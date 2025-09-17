@@ -163,6 +163,7 @@ http://127.0.0.1:8000/api/analyze
 
 <img width="1762" height="633" alt="image" src="https://github.com/user-attachments/assets/96733dee-40ad-4cfb-90ef-e0c8a6d92d5a" />
 
+
 📌 Records are coming in our database. 
 
 <img width="1323" height="86" alt="image" src="https://github.com/user-attachments/assets/be5ef35a-0796-4930-87be-0c7fe68c5fe6" />
