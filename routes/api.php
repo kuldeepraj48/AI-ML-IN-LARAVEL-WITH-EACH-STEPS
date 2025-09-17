@@ -2,8 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AIController;
-
+use App\Http\Controllers\AIController as OldAIController;
+use App\Http\Controllers\Api\AIController as NewAIController;
+use App\Http\Controllers\Api\TaskController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,11 @@ use App\Http\Controllers\AIController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::post('/analyze', [AIController::class, 'analyze']);
+Route::prefix('ai')->group(function () {
+    Route::post('/chat', [NewAIController::class, 'chat']);
+    Route::post('/summarize', [NewAIController::class, 'summarize']);
+    Route::apiResource('/tasks', TaskController::class); // 👈 CRUD endpoints
+});
+Route::post('/analyze', [OldAIController::class, 'analyze']);
+//Route::post('/chat', [NewAIController::class, 'chat']);
+//Route::post('/summarize', [NewAIController::class, 'summarize']);
