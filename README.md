@@ -168,6 +168,7 @@ http://127.0.0.1:8000/api/analyze
 
 <img width="1323" height="86" alt="image" src="https://github.com/user-attachments/assets/be5ef35a-0796-4930-87be-0c7fe68c5fe6" />
 
+
 📌 Working these screen as per changes.
 
 <img width="1870" height="677" alt="new" src="https://github.com/user-attachments/assets/ce7571ab-220d-4a0c-8c6e-6d9fc8ffbc1f" />
